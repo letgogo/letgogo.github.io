@@ -1,18 +1,18 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: Android程序员
+keywords: Letgogo, Android
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+一个喜欢李小龙、科比和乔布斯的程序员，兵无常势，水无常形，意念一到，动作就到，
 
-仰慕「优雅编码的艺术」。
+写代码的高一层境界就像打字时的盲打一样，足够的训练和积累让你形成动作记忆和认知记忆，从而达到比较快速而高效率解决问题的境界，
 
-坚信熟能生巧，努力改变人生。
+更高一层境界便是在第一层境界的基础上拥有慢思考和深度思考的能力，从而达到高效率解决庞大、复杂、长久性问题的境界
 
 ## 联系
 
@@ -21,10 +21,7 @@ permalink: /about/
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
 {% if site.url contains 'mazhuang.org' %}
-<li>
-微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
-</li>
+
 {% endif %}
 </ul>
 
